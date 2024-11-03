@@ -1,22 +1,22 @@
 ---
 hero:
-  title: library
-  description: slate-editor
+  title: slate-editor
+  description: 基于Slate开发的所见即所得，React富文本Markdown编辑器
   actions:
-    - text: Hello
-      link: /
-    - text: World
+    - text: 了解一下
+      link: /guide
+    - text: Star一下
       link: /
 features:
-  - title: Hello
+  - title: 高可定制
     emoji: 💎
-    description: Put hello description here
-  - title: World
+    description: 基于Slate，高度定制化
+  - title: 所见即所得
     emoji: 🌈
-    description: Put world description here
-  - title: '!'
+    description: 输入时渲染，及时看见效果
+  - title: 合二为一
     emoji: 🚀
-    description: Put ! description here
+    description: 合二为一，Markdown和富文本
 ---
 
-slate-editor
+#### slate-editor编辑器

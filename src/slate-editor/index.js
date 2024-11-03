@@ -19,7 +19,7 @@ import RenderElement, { RenderLeaf } from './formatter';
 import { BlockButton, MarkButton } from './components/Button';
 import { isBlockActive, toggleMark } from './formatter/utils';
 import { DEFAULT_NOTE, HOTKEYS, SHORTCUTS } from './constant';
-import ToolIcon from './components/Icon';
+import ToolIcon from './components/ToolIcon.js';
 import ColorPicker from './components/ColorPicker';
 import InsertImage from './components/InsertImage';
 import useDecorate from './hooks/useDecorate';

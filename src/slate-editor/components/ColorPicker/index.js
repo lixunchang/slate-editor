@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChromePicker } from 'react-color';
-import EditorIcon from '../Icon';
+import ToolIcon from '../ToolIcon';
 import { Editor, Transforms } from 'slate';
 import './index.less';
 import { useSlate } from 'slate-react';
@@ -45,7 +45,7 @@ function ColorPicker() {
 
   return (
     <span>
-      <EditorIcon
+      <ToolIcon
         type="icon-editor-text-color"
         onMouseDown={handleOpenColorPicker}
         style={{ userSelect: 'none', color: '#aaaaaa' }}

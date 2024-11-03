@@ -2,7 +2,7 @@ import { Button } from "../../Button"
 import { useSlateStatic } from 'slate-react'
 import { Element as SlateElement, Transforms, Editor } from 'slate'
 import { CodeBlockType, CodeLineType, ParagraphType } from ".."
-import ToolIcon from '../../Icon';
+import ToolIcon from '../../ToolIcon';
 import { isBlockActive } from "../../../formatter/utils";
 
 const CodeBlockButton = () => {

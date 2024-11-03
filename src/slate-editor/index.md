@@ -1,6 +1,6 @@
 # SlateEditor
 
-This is an example component.
+React 根据Slate.js二次开发的所见即所得的富文本Markdown编辑器，已实现文本、图片和表格相关功能，欢迎试用。
 
 ```jsx
 import Editor from 'slate-editor';
@@ -22,7 +22,7 @@ function App() {
       setBody(data);
     }
   };
-  console.log('Editore', Editor)
+  console.log('Editore', body)
   return (
     <div className="App">
       {

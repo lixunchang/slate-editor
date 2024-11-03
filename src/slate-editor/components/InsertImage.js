@@ -1,5 +1,5 @@
 import { useSlateStatic } from 'slate-react';
-import EditorIcon from './Icon';
+import ToolIcon from './ToolIcon';
 import imageExtensions from 'image-extensions';
 import { insertImage, isImageUrl } from '../formatter/images';
 // import fileHelper from '../../../utils/fileHelper';
@@ -54,7 +54,7 @@ const InsertImage = () => {
   };
 
   return (
-    <EditorIcon
+    <ToolIcon
       style={{ color: '#aaaaaa' }}
       type="icon-editor-image"
       onClick={handleSelectFolder}
